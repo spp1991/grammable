@@ -1,24 +1,21 @@
-# README
+# Grammable 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application allows users to create/edit/destroy post and allows users (including the user who created the post) to submit comment on the post. Each user is required to sign up before taking any action (create/edit/destroy post, post a comment)
 
-Things you may want to cover:
+This application was developed using test driven development approach which allows developer to ensure that application functionalities are working before any new code changes are commited . Rspec gem is used to develop test for the application. AWS cloud storage platform is used to store images associated with each post.
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+Technical details of the app is as follows :
+Programming Language: Ruby, javascript, HTML5
+Web/stylesheet Framwork : ruby on rails, bootstrap  
+Database : postgresql
+Gems : rspec, factorybot, carrierwave, fog-aws
+Cloud Storage Platform ; Amazon Web Service (AWS)
 
-* Database creation
 
-* Database initialization
+To checkout the application, click [here](https://grammable-sunnypatel.herokuapp.com/) 
 
-* How to run the test suite
+<img src="screenshot.png" alt="Screenshot">
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Note : Please execute commands to install all gems ('bundle install') and create/migrate database/tables('rails db:create , rails db:migrate') before git repository of this application is downloaded and used to run on local server 

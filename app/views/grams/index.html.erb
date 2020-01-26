@@ -4,7 +4,7 @@
       <div class="handle"><%= gram.user.email %></div>
       
       <% if gram.picture.present? %>
-        <%= image_tag gram.picture.url %>
+        <%= image_tag gram.picture.url, class: 'gram-image' %>
       <% end %>
       <p>
         <%= gram.message %>

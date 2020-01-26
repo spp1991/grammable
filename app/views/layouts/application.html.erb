@@ -29,14 +29,15 @@
       </div>
       <br class="clear-fix" />
     </div>
-    <% if notice.present? %>
-      <p class="notice"><%= notice %></p>
-    <% end %>
+    <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3">
+      <% if notice.present? %>
+        <p class="notice "><%= notice %></p>
+      <% end %>
 
-    <% if alert.present? %>
-      <p class="alert"><%= alert %></p>
-    <% end %>
-
+      <% if alert.present? %>
+        <p class="alert"><%= alert %></p>
+      <% end %>
+    </div>
     <%= yield %>
   </body>
 </html>
