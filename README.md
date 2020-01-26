@@ -17,6 +17,9 @@ Note : Please execute commands to install all gems ('bundle install') and create
 
 To checkout the application, click [here](https://grammable-sunnypatel.herokuapp.com/) 
 
+## Home Page
 <img src="screenshot-1.png" alt="Screenshot">
+
+## New Gram Page
 <img src="screenshot-2.png" alt="Screenshot">
 
