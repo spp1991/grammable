@@ -13,9 +13,10 @@ Database : postgresql
 Gems : rspec, factorybot, carrierwave, fog-aws
 Cloud Storage Platform ; Amazon Web Service (AWS)
 
+Note : Please execute commands to install all gems ('bundle install') and create/migrate database/tables('rails db:create , rails db:migrate') before git repository of this application is downloaded and used to run on local server 
 
 To checkout the application, click [here](https://grammable-sunnypatel.herokuapp.com/) 
 
-<img src="screenshot.png" alt="Screenshot">
+<img src="screenshot-1.png" alt="Screenshot">
+<img src="screenshot-2.png" alt="Screenshot">
 
-Note : Please execute commands to install all gems ('bundle install') and create/migrate database/tables('rails db:create , rails db:migrate') before git repository of this application is downloaded and used to run on local server 
